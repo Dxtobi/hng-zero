@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="profile-picture">
+        <img 
+          src="https://pbs.twimg.com/profile_images/1848790410245672960/r-m4cWy4_400x400.jpg" 
+          alt="Profile Picture"
+          data-testid="profilePicture"
+        >
+      </div>
+
+      <div class="profile-info">
+        <h1 data-testid="fullName">Akanbi Joseph Oluwatobi</h1>
+        <p class="job-title" data-testid="jobTitle">Frontend / Mobile Developer</p>
+        <p class="short-bio" data-testid="shortBio">
+          Passionate frontend developer with 4 years of experience in creating 
+          responsive and user-friendly web applications. Specializing in 
+          modern JavaScript frameworks and clean UI design.
+        </p>
+        
+        <div class="current-location" data-testid="currentLocation">
+          <span>📍</span>
+          <span>Lagos, Nigeria</span>
+        </div>
+
+        <div class="email-address" data-testid="emailAddress">
+          <span>📧</span>
+          <a href="mailto:akanbitobijoseph@gmail.com" style="text-decoration: none; color: var(--primary-color);">Akanbitobijoseph@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://www.linkedin.com/in/akanbi-joseph-10783219a/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/dxtobi" target="_blank">GitHub</a>
+        <a href="https://x.com/programmer_dex" target="_blank">Twitter</a>
+      </div>
+
+      <div class="current-time" data-testid="currentTimeUTC"></div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
