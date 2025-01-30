@@ -25,5 +25,5 @@ A responsive and interactive profile card built with HTML, CSS, and Vanilla Java
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/profile-card.git
+git clone https://github.com/Dxtobi/hng-zero.git
 
